@@ -485,6 +485,7 @@ footer div {
         background-repeat: no-repeat;
         background-position: center;
         margin-left: -16px;
+        
     }   
     #search-button .mobile-icon {
         display: inline-block;
@@ -566,11 +567,8 @@ footer div {
 
     footer {
         flex-direction: column;
-        padding: 30px;
         width: 100%;
     }
     
-
-
 }
 
