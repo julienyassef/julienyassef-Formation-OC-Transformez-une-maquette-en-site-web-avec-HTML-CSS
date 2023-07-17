@@ -303,13 +303,13 @@ header{
 
 .populaires-cards {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
 .populaires-cards a {
-    width: 30%;
+    width: 100%;
 }
 
 .populaires-cards .card {
