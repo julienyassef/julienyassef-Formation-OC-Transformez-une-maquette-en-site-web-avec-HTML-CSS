@@ -238,15 +238,20 @@ header{
 
 .hebergements-cards{
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hebergements a {
+    width: 30%;
+    min-width: 212px; /* pour éviter un retour à la ligne du titre */
+    margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    flex-basis: 28%;
 }
 
 .hebergements-cards img {
