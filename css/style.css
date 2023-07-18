@@ -388,10 +388,13 @@ header{
 footer {
     display: flex;
     background-color: #F2F2F2;
-    font-family: 'Raleway', sans-serif
+    font-family: 'Raleway', sans-serif;  
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 footer div {
+    width: 30%;
     display: flex;
     padding: 20px;
     flex-direction: column;
