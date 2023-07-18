@@ -553,19 +553,16 @@ footer div {
     .hebergements-cards a {
         width: 100%;
     }
-
-    .activity-Marseille {
-        margin-left: 15px;
-    }
     
     .activity-Marseille-card {
         display: flex;
         flex-direction: column;
+        width: 100%;
         gap: 15px;
     }
 
-    .activity-Marseille-card .card-activity{
-        width: 100%; 
+    .activity-Marseille img {
+        width: 100%;
     }
 
     footer {
