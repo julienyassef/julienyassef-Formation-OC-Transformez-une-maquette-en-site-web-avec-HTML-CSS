@@ -571,6 +571,13 @@ footer div {
     footer {
         flex-direction: column;
         width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer div {
+        width: 90%;
+        /* 90% et non 100% pour éviter que ça scroll en version phone */
     }
     
 }
